@@ -1,6 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
+    <?php $title = 'Servicios'; ?>
     <?php include_once 'includes/meta.php'; ?>
 </head>
 
@@ -15,100 +17,87 @@
                 <div class="privacy-policy animated fadeInUp delay-1s">
                     <p>&nbsp;</p>
                     <h2><i class="fab fa-wordpress"></i> Worpress / Woocommerce</h2>
-                    <p class="legal-des">When you access the Website, I’ll learn certain information about you during
-                        your visit: <br> <br><strong>a. Information you provide to me.</strong> I collect information
-                        that you provide to me by filling out forms on the Website, by responding to surveys, or by
-                        mailing me. I use this information to deliver my services to you, and to send you information
-                        and marketing materials. <br> <br><strong>b. Information I collect through Google
-                            Analytics.</strong> This data will generally include information about your location, how
-                        you’re using my website, what device you’re using, etc. The information I collect automatically
-                        is used for statistical data to improve my Website and my service offerings and won’t include
-                        personal information.</p>
+                    <p class="legal-des">Creación y optimización de Sitios desarrollados en Worpress, Generación de Tiendas
+                        de Comercio electrónico con Woocommerce, Creación de nuevos Plugins personalizados, adaptación de 
+                        plantillas (Themes), mejoras de rendimiento, etc.
+                        <br /><br />
+                        #Worpress #Woocomerce #Plugins #Themes #PHP #Mysql
+                    </p>
 
                     <h2><i class="fas fa-wrench"></i> Aplicaciones a Medida</h2>
-                    <p class="legal-des">This Website uses cookies and similar technologies (Google Analytics) to
-                        provide me with information on how people move about the site, what is of interest to them and
-                        what is not, how my marketing is performing, and incidental items such as what percentage of
-                        users access the site from a personal computer versus a mobile phone. You may block most cookies
-                        by adjusting your browser settings.</p>
-
-                    <h2><i class="fas fa-mobile-alt"></i> Mobile Apps</h2>
-                    <p class="legal-des">Some content or applications on the Website are served by third-parties. These
-                        third parties may use cookies alone or in conjunction with web beacons or other tracking
-                        technologies to collect information about you when you use my website. I do not control these
-                        third parties’ tracking technologies or how they may be used. If you have any questions about
-                        this, you should contact the responsible provider directly.</p>
+                    <p class="legal-des">A menudo las herramientras disponibles en el mercado no cumplen
+                        con todos los requerimientos que tenemos, para esto se necesario crear Aplicaciones
+                        a medida, que pueden incluso integrarse con sus sistemas ya existentes.
+                        <br /><br />
+                        #JavaScript #React #PHP #Java #Python #Golang #Mysql #Postgresql #.NET
+                        </p>
 
                     <h2><i class="fas fa-sitemap"></i> Asesorías Scrum</h2>
-                    <p class="legal-des">I will retain any information you choose to provide to me until the earlier of:
-                        <br><br>● You asking me to delete the information,<br>
-                        ● My decision to cease using my existing data providers, or<br>
-                        ● I decide that the value in retaining the data is outweighed by the costs
-                        of retaining it.
+                    <p class="legal-des">Asesorías para integrar el marco de trabajo Scrum a sus procesos, brindando 
+                        las herramientas necesarias y la capacitación para poder realizar todas las ceremonias
+                        correspondientes a esta metodología.
+                        <br /><br />
+                        #Scrum #Daily #Retrospective #Planning #Demo #Sprint
                     </p>
 
                     <h2><i class="fas fa-laptop-code"></i> Migraciones Legacy</h2>
-                    <p class="legal-des">I will retain any information you choose to provide to me until the earlier of:
-                        <br><br>● You asking me to delete the information,<br>
-                        ● My decision to cease using my existing data providers, or<br>
-                        ● I decide that the value in retaining the data is outweighed by the costs
-                        of retaining it.
+                    <p class="legal-des">Migración de aplicaciones desarrolladas en tecnologías
+                        antiguas con poca compatibilidad a nuevas tecnologías, asegurando el correcto funcionamiento 
+                        y la persistencia de sus datos.
+                        <br /><br />
+                        #JavaScript #React #PHP #Java #Python #Golang #Mysql #Postgresql #.NET
                     </p>
 
                     <h2><i class="fas fa-link"></i> Integraciones</h2>
-                    <p class="legal-des">I will retain any information you choose to provide to me until the earlier of:
-                        <br><br>● You asking me to delete the information,<br>
-                        ● My decision to cease using my existing data providers, or<br>
-                        ● I decide that the value in retaining the data is outweighed by the costs
-                        of retaining it.
+                    <p class="legal-des">Integraciones de aplicaciones a sus sistemas actuales, para poder tener
+                        una sincronia correcta de los datos necesarios.
+                        <br /><br />
+                        #JavaScript #React #PHP #Java #Python #Golang #Mysql #Postgresql #.NET
                     </p>
 
                     <h2><i class="fas fa-chart-bar"></i> Analítica</h2>
-                    <p class="legal-des">I will retain any information you choose to provide to me until the earlier of:
-                        <br><br>● You asking me to delete the information,<br>
-                        ● My decision to cease using my existing data providers, or<br>
-                        ● I decide that the value in retaining the data is outweighed by the costs
-                        of retaining it.
+                    <p class="legal-des">Instalación y Configuraciones de las herramientas necesarias
+                        para poder obtener los datos estadisticos y poder visualizarlos de una forma amigable,
+                        para que pueda tener una projección correcta de sus necesidades.
+                        <br /><br />
+                        #Analytics #Loocker #DataDog #New Relic #BI #Metricas #Big Data
                     </p>
 
                     <h2><i class="fas fa-network-wired"></i> Intranet</h2>
-                    <p class="legal-des">I will retain any information you choose to provide to me until the earlier of:
-                        <br><br>● You asking me to delete the information,<br>
-                        ● My decision to cease using my existing data providers, or<br>
-                        ● I decide that the value in retaining the data is outweighed by the costs
-                        of retaining it.
+                    <p class="legal-des">Creación de plataformas coorporativas para administrar los procesos internos
+                        de su empresa, manteniendo el control de accesos y seguridad correspondientes.
+                        <br /><br />
+                        #JavaScript #React #PHP #Java #Python #Golang #Mysql #Postgresql #.NET
                     </p>
 
                     <h2><i class="fas fa-cloud"></i> Cloud</h2>
-                    <p class="legal-des">I will retain any information you choose to provide to me until the earlier of:
-                        <br><br>● You asking me to delete the information,<br>
-                        ● My decision to cease using my existing data providers, or<br>
-                        ● I decide that the value in retaining the data is outweighed by the costs
-                        of retaining it.
+                    <p class="legal-des">Migración de sus plataformas actuales a servidores Cloud (AWS, GCP), 
+                        asegurando la persistencia de sus datos y correcto funcionamiendo de las aplicaciones.
+                        <br /><br/>
+                        #AWS #Cloud #GCP #IaaS #Virtual Machine
                     </p>
 
                     <h2><i class="fas fa-money-check-alt"></i> Plataformas de Pago</h2>
-                    <p class="legal-des">I will retain any information you choose to provide to me until the earlier of:
-                        <br><br>● You asking me to delete the information,<br>
-                        ● My decision to cease using my existing data providers, or<br>
-                        ● I decide that the value in retaining the data is outweighed by the costs
-                        of retaining it.
+                    <p class="legal-des">Integración de diversas plataformas de pago a sus procesos, sistemas de 
+                        facturación electrónica y reportería.
+                        <br /><br />
+                        #Webpay #Transbank #Transacciones #Reportes #Paypal #Mercado Pago #Kiphu #Flow
                     </p>
 
                     <h2><i class="fas fa-shopping-cart"></i> Comercio Electrónico</h2>
-                    <p class="legal-des">I will retain any information you choose to provide to me until the earlier of:
-                        <br><br>● You asking me to delete the information,<br>
-                        ● My decision to cease using my existing data providers, or<br>
-                        ● I decide that the value in retaining the data is outweighed by the costs
-                        of retaining it.
+                    <p class="legal-des">
+                        Creación de sistemas completos para tener su tienda virtual, teniendo el control de 
+                        todas las secciones de su sitio web, ventas en linea, plataforma de pago y reportes.
+                        <br /><br />
+                        #E-commerce #Woocomerce #Shopify #PHP #Javascript
                     </p>
 
                     <h2><i class="fas fa-database"></i> Bases de Datos</h2>
-                    <p class="legal-des">I will retain any information you choose to provide to me until the earlier of:
-                        <br><br>● You asking me to delete the information,<br>
-                        ● My decision to cease using my existing data providers, or<br>
-                        ● I decide that the value in retaining the data is outweighed by the costs
-                        of retaining it.
+                    <p class="legal-des">Incorporación de las herramientas necesarias para poder guardar 
+                        datos, integracion a sus servicios y monitoreo del rendimiento de estas, migraciones 
+                        y limpieza de datos corruptos.
+                        <br /><br />
+                        #Mysql #MS SQL #Oracle #Postgree #MongoDB
                     </p>
                 </div>
 

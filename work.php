@@ -1,3 +1,7 @@
+<?php 
+include '404.php'; 
+die();
+?>
 <html>
 
 <head>

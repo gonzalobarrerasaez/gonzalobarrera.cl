@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <?php include_once 'includes/meta.php'; ?>
 </head>
@@ -18,7 +19,7 @@
                     Desempeñándome en su mayoría en empresas <b>Software Factory y E-commerce</b>.
                 </p>
                 <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-                <a href="contact.html"><button class="contact-btn">
+                <a href="contact.php"><button class="contact-btn">
                         Contáctame
                     </button></a>
                 <div class="social-icons">
@@ -29,7 +30,7 @@
             </div>
 
             <div class="col-md-6" id="hero-right">
-                <img id="hero-img" src="assets/img/hero-img.svg">
+                <img id="hero-img" src="assets/img/hero-img.svg" alt="Gonzalo Barrera | Software Engineer">
             </div>
 
         </div>

@@ -1,7 +1,9 @@
 <nav class="nav-desk">
     <center>
         <div class="nav-logo">
-            <a href="index.php"><img id="logo" src="assets/img/logo.png"></a>
+            <a href="index.php">
+                <img id="logo" width="100" src="assets/img/logo.png" alt="Gonzalo Barrera | Software Engineer">
+            </a>
         </div>
         <div class="nav-items">
             <ul>
