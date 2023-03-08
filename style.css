@@ -662,17 +662,17 @@ li span:after {
     padding-top: 60px;
 }
 
-li span:hover:before {
+/* li span:hover:before {
     background: var(--black-color);
     width: 100%;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-}
+} */
 
-li span:hover:after {
+/* li span:hover:after {
     background: transparent;
     width: 100%;
     transition: 0s;
-}
+} */
 
 #index-body {
     /* background: url('assets/img/mobile.png'); */

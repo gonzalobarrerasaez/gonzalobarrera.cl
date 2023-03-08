@@ -1,13 +1,14 @@
 const staticCacheName = 'site-static-v1';
 const assets = [
     '/',
-    '/index.html',
+    '/index.php',
     '/style.css',
     '/assets/img/logo.png',
     '/assets/img/favicon-32x32.png',
     '/assets/img/favicon-16x16.png',
     '/assets/img/apple-touch-icon.png',
     '/assets/img/hero-img.svg',
+    '/assets/img/contact.svg',   
     'https://fonts.googleapis.com/css?family=Lato:300,400,700'
 ];
 // install event

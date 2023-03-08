@@ -5,23 +5,26 @@ if ('serviceWorker' in navigator) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const btn = document.getElementById('btnContact');
-  if (btn) {
-    btn.addEventListener('click', () => {
-      console.log('btn clicked');
-      const frmContact = document.getElementById('frmContact');
-      const thankyouMessage = document.getElementById('thankyou_message');
-      frmContact.style.display = 'none';
-      thankyouMessage.style.display = 'block';
-      //   $.ajaxSubmit({
-      //     url: '/addpost',
-      //     type: 'post',
-      //     dataType: 'html',
-      //     data : $( "#addpost" ).serialize(),
-      //     success : function(data) {
-      //         location.reload();
-      //     }
-      // });
+  const frmContact = document.getElementById('frmContact');
+  const thankyouMessage = document.getElementById('thankyou_message');
+  if (frmContact) {
+    frmContact.addEventListener('submit', (evt) => {
+      evt.stopPropagation();
+      evt.preventDefault();
+
+      var xhr = new XMLHttpRequest();
+      var data = new FormData(frmContact);
+      xhr.open('POST', '../app/email.php')
+      xhr.send(data);
+
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState == XMLHttpRequest.DONE && xhr.response) {
+          if (JSON.parse(xhr.response).messageId) {
+            frmContact.style.display = 'none';
+            thankyouMessage.style.display = 'block';
+          }
+        } 
+      }
     });
   }
 

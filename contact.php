@@ -5,7 +5,7 @@
 <?php $title = 'Contacto'; ?>
     <?php include_once 'includes/meta.php'; ?>
 </head>
-
+<?php include_once 'includes/analitycs.php'; ?>
 
 <body id="contact-body" style="overflow-x: hidden;">
     <div>
@@ -28,7 +28,7 @@
                     <div class="form-group"><label for="message">Mensaje</label>
                         <textarea rows="3" id="message" name="message" class="form-control" required=""></textarea>
                     </div>
-                    <button type="button" class="submit animated bounce delay-4s learn-btn" id="btnContact">
+                    <button type="submit" class="submit animated bounce delay-4s learn-btn" id="submitButton">
                         Enviar!
                     </button>
                 </form>

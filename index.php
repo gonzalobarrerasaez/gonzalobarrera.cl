@@ -3,6 +3,7 @@
 <head>
     <?php include_once 'includes/meta.php'; ?>
 </head>
+<?php include_once 'includes/analitycs.php'; ?>
 
 <body id="index-body" style="overflow: hidden;">
     <div>

@@ -5,6 +5,7 @@
     <?php $title = 'Servicios'; ?>
     <?php include_once 'includes/meta.php'; ?>
 </head>
+<?php include_once 'includes/analitycs.php'; ?>
 
 <body id="legal-body" style="overflow-x: hidden;">
     <div>
@@ -14,7 +15,7 @@
         <div class="animated fadeIn row" style="width:100vw;animation-duration: 1.5s;">
             <div class="col-md-12" id="left-hero">
                 <h1 id="legal-hero" class="hero-tag contact-hero copyright animated fadeInLeft">Servicios</h1>
-                <div class="privacy-policy animated fadeInUp delay-1s">
+                <div class="privacy-policy animated delay-1s">
                     <p>&nbsp;</p>
                     <h2><i class="fab fa-wordpress"></i> Worpress / Woocommerce</h2>
                     <p class="legal-des">Creación y optimización de Sitios desarrollados en Worpress, Generación de Tiendas
